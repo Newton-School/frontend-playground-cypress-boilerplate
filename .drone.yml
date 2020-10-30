@@ -4,7 +4,7 @@ name: default
 
 steps:
   - name: run-test-cases
-    image: cypress/base
+    image: newtonschool/cypress-test
     when:
       status:
       - failure
@@ -28,3 +28,10 @@ steps:
       - success
     commands:
       - node parser.js
+
+
+
+      
+
+
+
