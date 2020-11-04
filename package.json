@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --reporter mochawesome"
+    "test": "cypress run --headless --reporter mochawesome"
   },
   "repository": {
     "type": "git",
