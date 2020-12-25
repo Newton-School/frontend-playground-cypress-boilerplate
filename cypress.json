@@ -2,5 +2,6 @@
     "reporter": "mochawesome",
     "html": false,
     "json": true,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "experimentalFetchPolyfill": true
 }
