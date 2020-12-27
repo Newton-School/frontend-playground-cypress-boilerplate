@@ -3,5 +3,6 @@
     "html": false,
     "json": true,
     "chromeWebSecurity": false,
-    "experimentalFetchPolyfill": true
+    "screenshotOnRunFailure": false,
+    "video": false
 }
