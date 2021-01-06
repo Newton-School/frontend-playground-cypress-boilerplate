@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headless --reporter mochawesome"
+    "test": "cypress run --headless --reporter mochawesome --reporter-options html=false"
   },
   "keywords": [],
   "author": "",
